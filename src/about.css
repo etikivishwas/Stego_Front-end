@@ -1,0 +1,56 @@
+.card{
+         margin-top: 40px;
+         border: 1px solid hsl(0,0%,80);
+         border-radius: 10px;
+         box-shadow: 5px 5px 5px aqua;
+         padding: 40px;
+         margin: 10px;
+         /* text-align: center; */
+         max-width: 305px;
+         display: inline-block;
+         background-color: white;
+         margin: 50px 40px 40px 40px;
+         
+
+}
+h3{
+        position: relative;
+        background-color: white;
+        opacity: 0;
+        color: rgb(225, 115, 0);
+        outline: none;
+        text-shadow: 0 0 20px crimson;
+        /* 0 0 20px crimson; */
+        /* 0 0 10px crimson,
+        5px -10px 10px orange; */
+        /* -5px -10px 10px yellow;  */
+        display: inline-block;
+        animation:animate 1s linear forwards
+}
+@keyframes animate {
+
+        0%{
+                opacity: 0;
+                transform: rotateX(90deg);
+                filter: blur(10px);
+
+        }
+        100%{
+                opacity: 1;
+                transform: rotateX(0deg);
+                filter: blur(0px);
+        }
+
+        
+}
+
+.img1{
+         height: auto;
+         margin-left: 50px;
+         max-width: 60%;
+         border-radius: 10%;
+         margin-bottom: 10px;
+ }
+.para{
+         background-color: white;
+}  

@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Home from './Home';
+import Encode from './Encode';
+import Decode from './Decode';
+import Detect from './Detect';
+import About from './About'
+import Navbar from './Navbar';
+import Login from './login';
+import Error from './error';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Login />}></Route>
+      <Route path='/home' element={<Home />}></Route>
+      <Route path='/encode' element={<Encode />}></Route>
+      <Route path='/decode' element={<Decode />}></Route>
+      <Route path='/detect' element={<Detect />}></Route>
+      <Route path='/about' element={<About />}></Route>
+      <Route path='*' element={<Error />}></Route>
+    </Routes>
+    </BrowserRouter>
   );
 }
 

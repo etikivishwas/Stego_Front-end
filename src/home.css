@@ -1,0 +1,23 @@
+*{
+         /* background-color: #021f3d; */
+         background-color: black;
+}
+.home-content{
+         margin-left: 400px;
+
+}
+img{
+         align-items: center;
+         margin-left: 10px;    
+}
+.data{
+         color: white;
+         font-size: 20px;
+         justify-content: center;
+         margin-left: 120px;
+         margin-right: 120px;
+         font-family: monospace;
+}
+.p{
+         background-color: black;
+}

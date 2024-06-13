@@ -1,0 +1,29 @@
+.login{
+    background-color: aliceblue;
+    height: 578px; 
+    width: 100%;
+    padding-top: 150px;
+    padding: auto;
+    text-align: center;
+    background-image: url('interstellar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-size: auto; */
+}
+.hey1{
+    background-color: transparent;
+    
+}
+.form1{
+    background-color: transparent;
+    margin-left: 500px;
+    color: white;
+}
+.input1,.button1{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.button1{
+    border-radius: 5px;
+}
+
